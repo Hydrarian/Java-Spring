@@ -1,0 +1,10 @@
+package com.mh2.springdemo;
+
+public class myApp {
+	public static void main(String[] args) {
+		//create the object
+		BaseballCoach theCoach = new BaseballCoach();
+		//use the object
+		System.out.println(theCoach.getDailyWorkout());
+	}
+}
